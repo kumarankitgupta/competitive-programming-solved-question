@@ -3,7 +3,7 @@ public class HowmuchTime {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
             int t = sc.nextInt();
-            while(t != 0){
+            while(time-->0){
                 int n = sc.nextInt();
                 int p = sc.nextInt();
                 int x = sc.nextInt();
@@ -21,7 +21,7 @@ public class HowmuchTime {
                     j++;
                 }
                 System.out.println(time);
-                t--;
+                
             }
         }
     }

@@ -6,7 +6,6 @@ public class How_to_take_input_in_cp {
     static class Read {
         BufferedReader br;
         StringTokenizer st;
- 
         public Read()
         {
             br = new BufferedReader(
