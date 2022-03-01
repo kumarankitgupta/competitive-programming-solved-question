@@ -2,8 +2,8 @@ import java.util.*;
 public class HowmuchTime {
     public static void main(String[] args) {
         try (Scanner sc = new Scanner(System.in)) {
-            int time = sc.nextInt();
-            while(time-->0){
+            int t = sc.nextInt();
+            while(t-->0){
                 int n = sc.nextInt();
                 int p = sc.nextInt();
                 int x = sc.nextInt();
